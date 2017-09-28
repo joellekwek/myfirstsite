@@ -1,0 +1,98 @@
+body {
+  font-family: 'Lato', sans-serif;;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: #edc3c1;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  padding: 40px;
+}
+
+header img {
+  border: 3px solid rgba(237, 195, 193, 0.8);
+  border-radius: 50%;
+  /*border-style: double;*/
+  margin-bottom: 20px;
+}
+
+div {
+  padding: 40px;
+  line-height: 1.6; /* or 24px <- requires more brain */
+}
+
+.skills {
+  color: white;
+  background-color: rgba(237, 195, 193, 0.8);
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: black;
+  padding: 40px;
+}
+
+a {
+  font-weight: bold;
+  color: #E52D00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #979799;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 3px;
+}
+
+.row {
+  width: 960px;
+  margin: 0 auto; /* auto <- to center the thing*/
+}
+
+.col {
+  /*common in nowadays coding*/
+  width: 33.33%; /* 1/3 times 100% of the space*/
+  float: left;
+  padding: 0;
+}
+
+.hobbies {
+  clear: both;
+  padding-top: 10px;
+}
+
+@media (max-width: 960px) { /* for mobile/tablets etc. */
+  /* 500px <- universal mobile size */
+  .row {
+    width: 100px;
+  }
+
+  .col {
+    width: 100%;
+  }
+}
+
+.container {
+
+}
